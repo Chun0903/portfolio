@@ -528,7 +528,7 @@
         text-align: center;
     }
 
-    #skills .service-item .icon {
+    /* #skills .service-item .icon {
         width: 110px;
         height: 110px;
         display: inline-block;
@@ -537,12 +537,22 @@
         border: 3px solid #fff;
         border-radius: 50%;
         background-color: #f7c552;
+    } */
+    .skills-icon{
+        width: 70px;
+        margin-top: 20px;
+    }
+
+    #skills .service-item{
+        padding: 10px;
+        padding-bottom: 50px;
+        background-color: rgba(121, 88, 88, 0.5);
     }
 
     #skills .service-item h4 {
-        margin-bottom: 30px;
+        margin-bottom: 60px;
         margin-top: 45px;
-        font-size: 17px;
+        font-size: 30px;
         font-weight: 500;
         color: #fff;
         letter-spacing: 1px;
@@ -556,11 +566,12 @@
 
     #skills .service-item p {
         color: #fff;
-        margin-top: 30px;
+        margin-top: 60px;
     }
 
     #skills .service-item .primary-blue-button {
         margin-top: 35px;
+        
     }
 
     /* 프로젝트 */
@@ -978,55 +989,48 @@
             <div class="row">
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="service-item">
-                        <div class="icon">
-                            <img src="images/service_icon_01.png" alt="">
-                        </div>
-                        <h4>Smart Notifications</h4>
+                        <h4>Front-end</h4>
                         <div class="line-dec"></div>
-                        <p>Curabitur non risus fringilla libero accumsan molestie et quis justo. Cras aliquam tempor sem, vestibulum facilisis dui. Mauris malesuada porta.</p>
-                        <div class="primary-blue-button">
-                            <a href="#" class="scroll-link" data-id="portfolio">Continue Reading</a>
-                        </div>
+                        <p>html5 &nbsp&nbsp|&nbsp&nbsp css3 &nbsp&nbsp|&nbsp&nbsp javascript</p> 
+                        <img class="skills-icon" src="images/html5.png"
+                         alt="html5-logo">
+                        <img class="skills-icon" src="images/css3.png"
+                            alt="html5-logo">
+                        <img class="skills-icon" src="images/javascript.png"
+                            alt="html5-logo">
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="service-item">
-                        <div class="icon">
-                            <img src="img/service_icon_02.png" alt="">
-                        </div>
-                        <h4>Lovely Web Design</h4>
+                        <h4>Back-end</h4>
                         <div class="line-dec"></div>
-                        <p>Suspendisse magna mauris, convallis vel finibus eget, lobortis dictum neque. Nam tincidunt metus nec eros dignissim consectetur. Duis mollis.</p>
-                        <div class="primary-blue-button">
+                        <p>java</p> 
+                        <img class="skills-icon" src="images/java.png" alt="java-logo">
+                        <!-- <div class="primary-blue-button">
                             <a href="#" class="scroll-link" data-id="portfolio">Continue Reading</a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="service-item">
-                        <div class="icon">
-                            <img src="img/service_icon_03.png" alt="">
-                        </div>
-                        <h4>Quick Support</h4>
+                        <h4>Frameworks</h4>
                         <div class="line-dec"></div>
-                        <p>Etiam quis ullamcorper augue. Morbi leo libero, malesuada eget eleifend eu, interdum sed augue. Sed tempor mi quis rhoncus convallis.</p>
-                        <div class="primary-blue-button">
-                            <a href="#" class="scroll-link" data-id="portfolio">Continue Reading</a>
-                        </div>
+                        <p>spring-boot &nbsp&nbsp|&nbsp&nbsp jquery &nbsp&nbsp|&nbsp&nbsp bootstrap</p> 
+                        <img class="skills-icon" src="images/spring-boot.png" alt="spring-boot-icon"> 
+                        <img class="skills-icon" src="images/jquery.png" alt="jquery-icon"> 
+                        <img class="skills-icon" src="images/bootstrap.png" alt="bootstrap-icon">
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="service-item">
-                        <div class="icon">
-                            <img src="img/service_icon_04.png" alt="">
-                        </div>
-                        <h4>One-Click Setup</h4>
+                        <h4>Database</h4>
                         <div class="line-dec"></div>
-                        <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent viverra, nunc et mollis fermentum.</p>
-                        <div class="primary-blue-button">
-                            <a href="#" class="scroll-link" data-id="portfolio">Continue Reading</a>
-                        </div>
+                        <p>oracle-database</p> 
+                        <img class="skills-icon" src="images/oracle-database.png" alt="oracle-db-logo">
                     </div>
+                </div>
+                <div class="primary-blue-button" style="width: 250px; margin: 0px auto; position: relative; top: 100px;">
+                    <a href="project" class="scroll-link" data-id="project">SHOW PROJECT</a>
                 </div>
             </div>
         </div>
@@ -1041,7 +1045,7 @@
                         <div class="section-heading">
                             <h4>Project</h4>
                             <div class="line-dec"></div>
-                            <p>총 4가지의 프로젝트를 진행하였으며 사용된 기술들을 기준으로 분류하였습니다.</p>
+                            <p>총 3가지의 프로젝트를 진행하였으며 사용된 기술들을 기준으로 분류하였습니다.</p>
                             <div class="filter-categories">
                                 <ul class="project-filter">
                                     <li class="filter" data-filter="all"><span>Show All</span></li>
@@ -1061,9 +1065,13 @@
                                             <div class="image">
                                                 <a href="images/music.jpg" data-lightbox="image-1"><img src="images/music.jpg"></a>
                                             </div>
+                                            <a href="https://github.com/chanu2757/firstProject">
                                             <div class="projectInfo">
-                                                Music Striming <br> Project
+                                                Java 기반의 <br>
+                                                음악추천 프로그램입니다.
+
                                             </div>
+                                            </a>
                                       </div>
                                     </div>
                                     <div class="col-md-6 col-sm-6 project-item mix jdbc">
@@ -1071,9 +1079,11 @@
                                         <div class="image">
                                                 <a href="images/notebook.jpg" data-lightbox="image-1"><img src="images/notebook.jpg"></a>
                                             </div>
+                                            <a href="https://github.com/Chun0903/academy-project">
                                             <div class="projectInfo">
-                                                Music Striming <br> Project
+                                                Java, oracle 기반의 <br> 교육센터 운영 프로그램입니다.
                                             </div>
+                                            </a>
                                       </div>
                                     </div>
                                     <div class="col-md-6 col-sm-6 project-item mix web">
@@ -1081,12 +1091,16 @@
                                             <div class="image">
                                                 <a href="images/ticktect.jpg" data-lightbox="image-1"><img src="images/ticktect.jpg"></a>
                                             </div>
+                                            <a href="https://github.com/moods2/At-Ticket">
                                             <div class="projectInfo">
-                                                Music Striming <br> Project
+                                                Servlet과 JSP 기반의 <br>
+                                                서버 & 클라이언트 프로젝트인<br> 티켓 구매 사이트입니다
+
                                             </div>
+                                            </a>
                                       </div>
                                     </div>
-                                    <div class="col-md-6 col-sm-6 project-item mix web">
+                                    <!-- <div class="col-md-6 col-sm-6 project-item mix web">
                                         <div class="thumb">
                                             <div class="image">
                                                 <a href="images/ticktect.jpg" data-lightbox="image-1"><img src="images/ticktect.jpg"></a>
@@ -1095,7 +1109,7 @@
                                                 Music Striming <br> Project
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>
@@ -1135,7 +1149,7 @@
                     <div class="connect-us">
                         <h4>Get Social</h4>
                         <ul>
-                            <li><a href="#"><i class="fab fa-github fa-3x"></i></a></li>
+                            <li><a href="https://github.com/Chun0903"><i class="fab fa-github fa-3x"></i></a></li>
                             <h4>Git</h4>
                             <!-- <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                             <li><a href="#"><i class="fa fa-google"></i></a></li>
