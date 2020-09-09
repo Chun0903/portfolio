@@ -1,3 +1,6 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,7 +9,7 @@
     
     <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"></meta> -->
 
-    <title>Document</title>
+    <title>Chun's Portfolio</title>
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
@@ -516,7 +519,7 @@
     /* 스킬 */
     #skills {
 	padding: 250px 0px;
-	background-image: url(/images/sky.jpg);
+	background-image: url(./images/sky.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
     background-attachment: fixed;
@@ -576,7 +579,7 @@
 
     /* 프로젝트 */
     #project {
-        background-image: url(/images/moon.jpg);
+        background-image: url(./images/moon.jpg);
         background-size: cover;
         background-attachment: fixed;
         width: 100%;
